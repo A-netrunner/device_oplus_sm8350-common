@@ -64,17 +64,6 @@ vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-# Audio
-odm/lib/libaudioEngineerTest.so
-odm/lib/liblvimfs.so
-odm/lib/liblvimfs_wrapper.so
-vendor/lib/hw/audio.primary.lahaina.so
-vendor/lib/liba2dpoffload.so
-vendor/lib/libextcamera_client.so
-vendor/lib/libgui1_vendor.so
-vendor/lib/libssrec.so
-vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
-
 # Audio libraries
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
@@ -358,25 +347,6 @@ vendor/lib64/librpmb.so
 vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
-
-# Fingerprint
-odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
-odm/bin/init.oplus.fingerprints.sh
-odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
-odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
-odm/lib64/hw/fingerprint.goodix_G3.default.so
-odm/lib64/anc.hal.so
-odm/lib64/libgf_hal_G3.so
-odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
-odm/vendor/firmware/goodixfp.b00
-odm/vendor/firmware/goodixfp.b01
-odm/vendor/firmware/goodixfp.b02
-odm/vendor/firmware/goodixfp.b03
-odm/vendor/firmware/goodixfp.b04
-odm/vendor/firmware/goodixfp.b05
-odm/vendor/firmware/goodixfp.b06
-odm/vendor/firmware/goodixfp.b07
-odm/vendor/firmware/goodixfp.mdt
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -1151,14 +1121,6 @@ odm/lib64/liboemcrypto.so
 odm/lib64/libwvhidl.so
 vendor/etc/oplus_Widevine_licenses.pfm
 vendor/lib64/libtrustedapploader.so
-
-# WiFi
-odm/etc/wifi/regdb.bin
-odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
-vendor/bin/cnss-daemon
-vendor/etc/init/init.vendor.wlan.rc
-vendor/etc/wifi/p2p_supplicant_overlay.conf
-vendor/etc/wifi/wpa_supplicant_overlay.conf
 
 # WiFi Display (system) - from LE2120_11_A.01 (ColorOS 13.0.0 Open Beta F.11)
 system/framework/WfdCommon.jar|323859204993cb8bf89821baeb08a6a85e750c65
