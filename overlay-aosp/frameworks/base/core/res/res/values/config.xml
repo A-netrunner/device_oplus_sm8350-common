@@ -30,4 +30,7 @@
         <item>org.thunderdog.challegram</item>
         <item>us.zoom.videomeetings</item>
     </string-array>
+   
+    <!-- Whether Device Support UDFPS or Not -->
+    <bool name="config_supportUdfps">true</bool>
 </resources>
